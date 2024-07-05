@@ -42,3 +42,6 @@ IP.1 = server ip/domain name
 Generate the self-signed certificate using private key and the configuration file: execute this command "openssl req -x509 -new -nodes -key keyname.key -sha256 -days 365 -out crtname.crt -config filename.cnf
 "
 
+
+
+****note: Place the Self-Signed Certificate file on the same directory of your coding file
